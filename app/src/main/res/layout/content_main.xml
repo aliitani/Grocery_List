@@ -93,7 +93,8 @@
             android:background="@null"
             android:hint="@string/textHint"
             android:textAlignment="center"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp" />
 
         <Button
             android:layout_width="150dp"
@@ -101,8 +102,8 @@
             android:text="Add"
             android:id="@+id/addButton"
             android:onClick="addGrocery"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_below="@+id/groceriesText"
+            android:layout_alignStart="@+id/cancelButton" />
 
         <Button
             android:layout_width="150dp"
